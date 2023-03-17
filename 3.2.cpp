@@ -23,7 +23,6 @@ int main() {
     int arr[MAX_SIZE];
     int n = 0;
 
-    // Nh?p m?ng
     while (true) {
         int x;
         cin >> x;
@@ -36,10 +35,8 @@ int main() {
         n++;
     }
 
-    // S?p x?p m?ng
     bubbleSort(arr, n);
 
-    // In m?ng dã s?p x?p
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
